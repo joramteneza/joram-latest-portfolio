@@ -9,6 +9,17 @@ export interface Experience {
 
 const experience: Experience[] = [
   {
+    period: "June 2023 - Present",
+    company: "White Cloak Technologies, Inc.",
+    position: "Software Engineer",
+    responsibilities: [
+      "Develop designs that are made by the UI/UX",
+      "Participating in agile development processes, such as sprint planning, stand-ups, and retrospectives",
+      "Building of reusable codes and components for future use and easy updates",
+      "Collaboration with back-end developers for proper integration of back-end REST APIs",
+    ],
+  },
+  {
     period: "June 2022 - May 2023",
     company: "Ticketnation Philippines",
     position: "Full Stack Developer",

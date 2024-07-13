@@ -23,26 +23,42 @@ const About = () => {
         <div className="flex flex-col-reverse lg:grid lg:grid-cols-2 xl:flex xl:flex-col-reverse 2xl:grid 2xl:grid-cols-2">
           <div className="text-4xl lg:text-6xl">
             <p className="text-sm md:text-base leading-tight text-neutral-300 xl:w-[95%] text-start sm:text-justify pb-5">
-              I am an experienced Full Stack Web Developer who has worked with
-              various agencies, startups, and talented professionals. I have
-              extensive experience in JavaScript ES6 and TypeScript, as well as
-              HTML5 and a variety of CSS libraries such as JSS, Tailwind CSS,
-              Styled Components, and Sass. Additionally, I am proficient in
-              several JavaScript libraries and frameworks, including React JS
-              and Next JS. As my expertise and passion lie more in front-end
-              development, I am particularly interested in opportunities as a
-              Front-End Developer or React Developer. While my expertise
-              primarily lies in front-end development, I also have experience in
-              back-end development, specifically with Node JS, Nest JS, Amazon
-              Web Services, Docker, and PostgreSQL.
+              I am an experienced Full Stack Web Developer with a solid track
+              record of collaborating with various agencies, startups, and
+              talented professionals. I have extensive experience in JavaScript
+              ES6, TypeScript, HTML5, and a variety of CSS libraries, including
+              JSS, Tailwind CSS, Styled Components, and Sass. My proficiency
+              extends to several JavaScript libraries and frameworks, including
+              React JS and Next JS. While my expertise and passion lie in
+              front-end development, I am equally skilled in back-end
+              development, specifically with Node JS, Nest JS, Amazon Web
+              Services, Docker, and PostgreSQL, allowing me to create dynamic,
+              robust, and scalable web applications from end to end.
             </p>
             <p className="text-sm md:text-base leading-tight text-neutral-300 xl:w-[95%] ttext-start sm:text-justify pb-5">
-              With a solid track record of 4 years as a developer, I approach my
-              work with quiet confidence and an insatiable curiosity, constantly
-              seeking to enhance my web development skills through tackling new
-              challenges. My dedication to continuous improvement ensures that I
-              consistently deliver high-quality results in web development.
+              At White Cloak Technologies, Inc., I contributed as a Software
+              Engineer, specializing in front-end development to deliver
+              high-quality software solutions. My role involved implementing
+              UI/UX designs, participating in agile development processes, and
+              collaborating with back-end developers for seamless integration of
+              REST APIs. As a full stack developer at Ticketnation Philippines,
+              I implemented UI/UX designs, modified API endpoints, built Admin
+              and Partner Dashboards, and documented code for future use. At
+              Altev Technologies, Inc., as a mid front-end developer, I focused
+              on building reusable components, debugging, maintaining the
+              website, and ensuring code quality. At Pahiram.ph, my role
+              involved managing the connection between the Node API and React
+              JS, developing an inventory system, and creating user profiles and
+              listing features.
             </p>
+            <p className="text-sm md:text-base leading-tight text-neutral-300 xl:w-[95%] ttext-start sm:text-justify pb-5">
+              With 4 years of experience, I approach my work with quiet
+              confidence and an insatiable curiosity, constantly seeking new
+              challenges to enhance my web development skills. My dedication to
+              continuous improvement ensures that I consistently deliver
+              high-quality results in web development.
+            </p>
+
             <div className="w-full flex items-center justify-center sm:justify-start">
               <button
                 className="bg-primary-100 text-sm text-dark-900  hover:bg-dark-900 hover:text-primary-100 hover:border hover:border-primary-100 font-medium py-3 px-6 rounded-full"

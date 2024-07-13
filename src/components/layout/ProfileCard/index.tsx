@@ -45,7 +45,7 @@ const ProfileCard = ({ className }: ProfileCardProps) => {
                 /> */}
                 Full Stack Developer
               </span>
-              <span className="text-lg">Based in Makati City, PH</span>
+              <span className="text-lg">Based in Mandaluyong City, PH</span>
             </div>
             <div
               className={`flex items-start justify-center gap-4 ${
@@ -89,10 +89,10 @@ const ProfileCard = ({ className }: ProfileCardProps) => {
                     duration: 0.5,
                   }}
                 >
-                  <Item title="3+" desc="years of experience" />
+                  <Item title="4+" desc="years of experience" />
                 </motion.div>
               ) : (
-                <Item title="3+" desc="years of experience" />
+                <Item title="4+" desc="years of experience" />
               )}
               {isDesktop ? (
                 <motion.div
@@ -127,7 +127,7 @@ const ProfileCard = ({ className }: ProfileCardProps) => {
             </Link>
           </div>
         </div>
-      </div>  
+      </div>
     </div>
   );
 };
