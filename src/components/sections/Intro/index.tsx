@@ -15,6 +15,10 @@ const Introduction = () => {
     position && position.scrollIntoView({ behavior: "smooth", block: "start" }); //scrolling the page
   };
 
+  const handleViewResume = () => {
+    window.open("/static/pdf/Joram-Profile.pdf", "_blank");
+  };
+
   return (
     <div className="h-screen relative max-w-[1200px] flex flex-col items-center justify-center w-full py-20 m-auto text-center">
       <SectionTitle title="Introduction" display={{ icon: AiFillHome }} />
@@ -40,13 +44,20 @@ const Introduction = () => {
         experiences.
       </h1>
 
-      <Link href="/#about" legacyBehavior>
-        <a onClick={scrollHandle}>
-          <div className="px-6 py-2 lg:px-10 lg:py-4 text-xl transition-colors border-2 rounded-full cursor-pointer whitespace-nowrap text-white border-white bg-bg hover:bg-primary-100 hover:text-white hover:border-primary-100">
-            Tell me more
+      <div className="flex gap-4">
+        <Link href="/#about" legacyBehavior>
+          <a onClick={scrollHandle}>
+            <div className="px-6 py-2 lg:px-10 lg:py-4 text-xl transition-colors border-2 rounded-full cursor-pointer whitespace-nowrap text-white border-white bg-bg hover:bg-primary-100 hover:text-white hover:border-primary-100 hover:bg-opacity-40">
+              Tell me more
+            </div>
+          </a>
+        </Link>
+        <a onClick={handleViewResume}>
+          <div className="px-6 py-2 lg:px-10 lg:py-4 text-xl transition-colors rounded-full cursor-pointer whitespace-nowrap bg-primary-100 text-white  hover:bg-dark-900 hover:text-primary-100 hover:border hover:border-primary-100 bg-opacity-40">
+            Here&apos;s my Resume
           </div>
         </a>
-      </Link>
+      </div>
     </div>
   );
 };

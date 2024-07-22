@@ -7,10 +7,6 @@ import me2 from "../../../../public/static/images/me2.jpg";
 import me3 from "../../../../public/static/images/me3.jpg";
 
 const About = () => {
-  const handleViewResume = () => {
-    window.open("/static/pdf/Joram-Profile.pdf", "_blank");
-  };
-
   return (
     <div className="h-screen w-full  relative m-auto max-w-[1200px] py-28 text-white">
       <SectionTitle title="About" display={{ icon: MdEmojiPeople }} />
@@ -58,15 +54,6 @@ const About = () => {
               continuous improvement ensures that I consistently deliver
               high-quality results in web development.
             </p>
-
-            <div className="w-full flex items-center justify-center sm:justify-start">
-              <button
-                className="bg-primary-100 text-sm text-dark-900  hover:bg-dark-900 hover:text-primary-100 hover:border hover:border-primary-100 font-medium py-3 px-6 rounded-full"
-                onClick={handleViewResume}
-              >
-                Here&apos;s my Resume
-              </button>
-            </div>
           </div>
           <div className="flex gap-2 sm:gap-7 h-28 lg:h-full xl:h-28 2xl:h-full 2xl:w-full relative xl:w-[95%] lg:mx-10 xl:mx-0 2xl:mx-10">
             <Image
