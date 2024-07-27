@@ -20,7 +20,7 @@ const experience: Experience[] = [
     ],
   },
   {
-    period: "June 2022 - May 2023",
+    period: "June 2022 - June 2023",
     company: "Ticketnation Philippines",
     position: "Full Stack Developer",
     responsibilities: [
