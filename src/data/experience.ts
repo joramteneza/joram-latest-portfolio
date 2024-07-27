@@ -1,5 +1,3 @@
-import React from "react";
-
 export interface Experience {
   period: string;
   company: string;
@@ -13,10 +11,14 @@ const experience: Experience[] = [
     company: "White Cloak Technologies, Inc.",
     position: "Software Engineer",
     responsibilities: [
-      "Develop designs that are made by the UI/UX",
-      "Participating in agile development processes, such as sprint planning, stand-ups, and retrospectives",
-      "Building of reusable codes and components for future use and easy updates",
-      "Collaboration with back-end developers for proper integration of back-end REST APIs",
+      "Collaborate with the UI/UX team to develop visually appealing and functional designs.",
+      "Participate in agile development processes, including sprint planning, daily stand-ups, and retrospectives.",
+      "Build reusable code and components to streamline future development and updates.",
+      "Collaborate with developers, designers, and stakeholders to enhance features and fix bugs.",
+      "Integrate back-end REST APIs in collaboration with back-end developers for seamless functionality.",
+      "Conduct daily regroup meetings with co-frontend developers to discuss decision records via GitLab wiki.",
+      "Deploy applications using AWS Amplify and implement AWS CloudWatch RUM for real-time user monitoring on client sites.",
+      "Review and approve merge requests, providing constructive feedback to maintain high coding standards.",
     ],
   },
   {
@@ -24,13 +26,12 @@ const experience: Experience[] = [
     company: "Ticketnation Philippines",
     position: "Full Stack Developer",
     responsibilities: [
-      "Develop designs that are made by the UI/UX.",
-      "Building of reusable codes and components for future use and easy updates.",
-      "Reshaping of API endpoints depending on the needs.",
-      "Development of Admin and Partner Dashboard.",
-      "Integration of Backend APIs.",
-      "Participating in agile development processes, such as sprint planning, stand-ups and retrospectives.",
-      "Documenting code, processes, and best practices for future reference.",
+      "Develop designs provided by the UI/UX team, transforming them into functional components.",
+      "Build reusable code and components to facilitate future updates.",
+      "Reshape API endpoints to meet evolving needs and integrate them into the front end.",
+      "Develop the Admin Dashboard using React JS and the Partner Dashboard using Next JS.",
+      "Participate in agile processes, including sprint planning, daily stand-ups, and retrospectives.",
+      "Document code, processes, and best practices for future reference.",
     ],
   },
   {
@@ -38,13 +39,15 @@ const experience: Experience[] = [
     company: "Altev Technologies",
     position: "Mid Front End Developer",
     responsibilities: [
-      "Assigned to develop website of different clients.",
-      "Investigation, checking logs and fixing bugs for the maintenance of the website.",
-      "Consumption of backend APIs and creation of CRUD endpoints.",
-      "Collaborating with other developers, designers, and stakeholders to create new features and improve existing ones.",
-      "Ensuring code quality and maintaining coding standards, as well as participating in code reviews and sharing knowledge with other team members.",
-      "Working with databases, such as PostgreSQL, and integrating them into the front end application.",
-      "Staying up-to-date with the latest trends and best practices in React.js and Node.js development and sharing knowledge with the team.",
+      "Transform UI/UX designs into functional, user-friendly interfaces.",
+      "Create reusable code and components for efficiency and future updates.",
+      "Engage in agile development practices, including sprint planning, daily stand-ups, and retrospectives.",
+      "Develop websites for various clients, ensuring integration with PostgreSQL databases.",
+      "Maintain code quality through reviews and adherence to coding standards.",
+      "Collaborate with developers, designers, and stakeholders to enhance features and fix bugs.",
+      "Consume back-end APIs and create CRUD endpoints.",
+      "Investigate and resolve issues to maintain website functionality.",
+      "Stay updated with React.js and Node.js trends, sharing insights with the team.",
     ],
   },
   {
@@ -52,12 +55,11 @@ const experience: Experience[] = [
     company: "Pahiram.ph",
     position: "Front End Developer",
     responsibilities: [
-      "Handle connection between Backend API and React JS.",
-      "Created inventory of items to keep track of all the items rented and availability in admin dashboard.",
-      "Created user profile to have their portfolio's information in client side.",
-      "Created listing of Clients Item.",
-      "Develop the website by implementing user-friendly and resposive web interfaces.",
-      "Prioritize and manage bug fixes based on severity, impact, and project timelines.",
+      "Created an inventory management system to track rented items and their availability.",
+      "Developed user profiles to display portfolio information on the client side.",
+      "Implemented listing features for clients' items.",
+      "Designed and developed user-friendly, responsive web interfaces.",
+      "Prioritized and managed bug fixes based on severity and project timelines.",
     ],
   },
 ];
