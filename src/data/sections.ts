@@ -37,8 +37,8 @@ export const sections: Sections[] = [
     id: "projects",
     children: Projects,
   },
-  {
-    id: "contact",
-    children: Contact,
-  },
+  // {
+  //   id: "contact",
+  //   children: Contact,
+  // },
 ];
