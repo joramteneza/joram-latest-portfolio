@@ -9,6 +9,7 @@ import {
   SiRedux,
   SiTailwindcss,
   SiTypescript,
+  SiSwagger,
 } from "react-icons/si";
 import { FaAws, FaDocker, FaReact } from "react-icons/fa";
 import { DiNodejs } from "react-icons/di";
@@ -84,5 +85,10 @@ export const skills: Skills[] = [
     name: "Docker",
     rate: "88%",
     icon: FaDocker,
+  },
+  {
+    name: "Swagger",
+    rate: "90%",
+    icon: SiSwagger,
   },
 ];
